@@ -50,7 +50,11 @@ function Login() {
         {errMsg}
       </p>
       {/* <h1>Login</h1> */}
-      <form className={styles.form} onSubmit={handleLogin}>
+      <form
+        className={styles.form}
+        onSubmit={handleLogin}
+        // onSubmit={() => navigate("/dash")}
+      >
         <div className={styles.row}>
           <label htmlFor="username">Username: </label>
           <input

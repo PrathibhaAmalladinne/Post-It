@@ -1,7 +1,7 @@
 import useAuthorization from "../hooks/useAuthorization"
 import styles from "./Welcome.module.css"
 function Weolcome() {
-  const { username, isAdmin, isManager } = useAuthorization()
+  const { username } = useAuthorization()
   const date = new Date()
   const today = new Intl.DateTimeFormat("en-US", {
     dateStyle: "full",

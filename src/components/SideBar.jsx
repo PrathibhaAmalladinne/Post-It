@@ -3,6 +3,7 @@ import styles from "./SideBar.module.css"
 import useAuthorization from "../hooks/useAuthorization"
 function SideBar() {
   const { isAdmin, isManager } = useAuthorization()
+
   return (
     <main className={styles.sidebar}>
       <ul>

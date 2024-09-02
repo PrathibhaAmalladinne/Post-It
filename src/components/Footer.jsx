@@ -1,17 +1,17 @@
 import styles from "./Footer.module.css"
 import useAuthorization from "../hooks/useAuthorization"
 import { useNavigate } from "react-router-dom"
-// import { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 function Footer() {
   const { username, status } = useAuthorization()
-  //   const [user, setUser] = useState("")
-  //   const [statusUser, setStatusUser] = useState("Employee")
+  const [user, setUser] = useState("")
+  const [statusUser, setStatusUser] = useState("Employee")
   const navigate = useNavigate()
-  //   useEffect(() => {
-  //     setUser(username)
-  //     setStatusUser(status)
-  //   }, [username, status])
+  useEffect(() => {
+    setUser(username)
+    setStatusUser(status)
+  }, [username, status])
   const handleClick = () => {
     navigate(`/dash`)
   }
