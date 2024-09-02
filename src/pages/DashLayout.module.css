@@ -1,0 +1,18 @@
+.app {
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.95),
+      rgba(36, 42, 46, 0.95)
+    ),
+    url("/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  box-sizing: border-box;
+  /* padding: 2.5rem 5rem;  */
+}
+/* .footer {
+  margin-top:
+  bottom: 0;
+} */

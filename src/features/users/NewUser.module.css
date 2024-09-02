@@ -1,0 +1,101 @@
+.form {
+  height: 100vh;
+  padding-top: 60px;
+  padding-left: 230px;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.95),
+      rgba(36, 42, 46, 0.95)
+    ),
+    url("/image.png");
+  gap: 0.75em;
+
+  background-size: cover;
+  color: rgba(12, 159, 164, 01);
+  background-position: center;
+  background-repeat: no-repeat; /*Prevent background image from repeating */
+  box-sizing: border-box;
+}
+.message {
+  padding-top: 100px;
+  padding-left: 300px;
+}
+.errmessage {
+  padding-top: 200px;
+  padding-left: 600px;
+  color: red;
+}
+.h2 {
+  color: rgba(12, 159, 164, 01);
+  padding-top: 15px;
+  padding-left: 220px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.checkboxcontainer {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 0.5em;
+}
+
+.persist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5em;
+}
+
+.titlerow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input,
+.submitbutton {
+  /* max-width: 800px; */
+  padding: 0.5em;
+  border-radius: 15px;
+}
+
+.inputtext {
+  border-radius: 15px;
+  padding: 0.5em;
+  min-height: 150px;
+}
+
+.inputincomplete {
+  border: 1px solid var(--INPUT-INVALID);
+  outline: 1px solid var(--INPUT-INVALID);
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+}
+
+.select {
+  width: fit-content;
+  padding: 0.25em;
+}
+
+.actionbuttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1.5, 2.5;
+  position: absolute;
+  right: 0.5em;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2em;
+}
+.divider {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5em;
+}

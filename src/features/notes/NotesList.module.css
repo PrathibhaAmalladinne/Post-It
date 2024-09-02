@@ -1,0 +1,117 @@
+:root {
+  /* COLORS */
+  --BGCOLOR: rgb(40, 41, 41, 0.6);
+  --BORDER-COLOR: #fff;
+  --COLOR: #fff;
+  --ERROR: firebrick;
+  --INACTIVE: lightgray;
+  --LINK-COLOR: whitesmoke;
+  --LINK-HOVER: rgba(245, 245, 245, 0.9);
+  --NOTE-BGCOLOR: hsla(240, 64%, 27%, 0.65);
+  --STATUS-COMPLETE: limegreen;
+  --STATUS-OPEN: firebrick;
+  --TABLE-BGCOLOR: #fff;
+  --TABLE-COLOR: #000;
+  --INPUT-INVALID: #f00;
+}
+.titlerow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 5rem;
+  /* break-after: 4rem; */
+}
+.titlerowbutton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5rem 1.5rem;
+  position: absolute;
+  right: 4.5rem;
+}
+.message {
+  padding-top: 100px;
+  padding-left: 300px;
+}
+.errmessage {
+  padding-top: 200px;
+  padding-left: 600px;
+  color: red;
+}
+.h2 {
+  color: rgba(12, 159, 164, 01);
+  padding-top: 100px;
+  padding-left: 500px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.addbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  position: relative;
+  top: 100px;
+  left: 540px;
+}
+.h1 {
+  color: white;
+  padding-top: 100px;
+  padding-left: 500px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.notes {
+  height: 100vh;
+  padding-top: 80px;
+  padding-left: 250px;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.95),
+      rgba(36, 42, 46, 0.95)
+    ),
+    url("/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  box-sizing: border-box;
+  /*   */
+}
+
+.notes table {
+  break-before: 20px;
+  padding-left: 5rem;
+  align-items: center;
+  font-family: "Nunito";
+  font-size: 1.5rem;
+
+  grid-template-columns: repeat(3, 1fr) 2fr repeat(2, 1fr);
+  color: white;
+  gap: 0.1em;
+}
+
+.notes button {
+  padding: 0.25em;
+  font-size: 1.5rem;
+  background-color: bla;
+  color: black;
+}
+
+.notes thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.notes tbody {
+  display: contents;
+}
+.notes th {
+  background-color: rgb(52, 139, 145);
+  text-align: left;
+  border: 1px solid var(--TABLE-COLOR);
+  padding: 0.5em;
+}

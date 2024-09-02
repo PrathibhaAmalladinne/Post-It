@@ -1,0 +1,56 @@
+{
+  "notes": [
+    {
+      "_id": "66afd5a6b5bdc3702c6e37fd",
+      "user": "66afd520b5bdc3702c6e37f8",
+      "title": "new",
+      "text": "testst",
+      "completed": false,
+      "createdAt": "2024-08-04T19:25:26.207Z",
+      "updatedAt": "2024-08-04T19:25:26.207Z",
+      "ticket": 500,
+      "__v": 0,
+      "username": "new"
+    },
+    {
+      "_id": "66b256676924370569e90371",
+      "user": "66afd520b5bdc3702c6e37f8",
+      "title": "second",
+      "text": "Now I'll do this in frontend haha",
+      "completed": false,
+      "createdAt": "2024-08-06T16:59:20.568Z",
+      "updatedAt": "2024-08-06T16:59:20.568Z",
+      "ticket": 502,
+      "__v": 0,
+      "username": "new"
+    },
+    {
+      "_id": "66b256676924370569e90345",
+      "user": "66afd520b5bdc3702c6e37f9",
+      "title": "third",
+      "text": "Now I'll do this in MERN haha",
+      "completed": true,
+      "createdAt": "2024-08-06T16:59:20.568Z",
+      "updatedAt": "2024-08-06T16:59:20.568Z",
+      "ticket": 503,
+      "__v": 0,
+      "username": "Prat"
+    }
+  ],
+  "users": [
+    {
+      "_id": "66afd520b5bdc3702c6e37f8",
+      "username": "new",
+      "password": "new",
+      "roles": ["Employee"],
+      "active": true
+    },
+    {
+      "_id": "66afd520b5bdc3702c6e37f9",
+      "username": "Prat",
+      "password": "Prat",
+      "roles": ["Employee"],
+      "active": true
+    }
+  ]
+}
