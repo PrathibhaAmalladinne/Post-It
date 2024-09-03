@@ -6,7 +6,8 @@ const useApi = () => {
   const { currentToken, token, setCredentials } = useAuth()
   // const[currentToken,setCurrenToken] = useState[token]
   const instance = axios.create({
-    baseURL: "https://post-it-api-a1t6.onrender.com/",
+    baseURL: "https://post-it-api-a1t6.onrender.com",
+    // baseURL: "http://localhost:3500",
     withCredentials: true,
     // timeout: 3000,
   })
